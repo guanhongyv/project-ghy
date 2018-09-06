@@ -1,0 +1,146 @@
+page {
+  background: #e1f3ff;
+}
+
+.tit {
+  width: 400rpx;
+  height: 80rpx;
+  display: block;
+  margin: auto;
+  margin-top: 10rpx;
+  position: relative;
+}
+
+.nextDay {
+  position: absolute;
+  font-size: 30rpx;
+  color: #fd9800;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.head {
+  position: relative;
+}
+
+.everyDay {
+  background: #fec631;
+}
+
+.day_num {
+  width: 80rpx;
+  height: 80rpx;
+  border: 2px solid white;
+  background: #d9d9d9;
+  border-radius: 80rpx;
+  text-align: center;
+  line-height: 80rpx;
+  color: #938e8e;
+  font-size: 26rpx;
+}
+
+.Sign {
+  display: flex;
+  justify-content: space-around;
+  /* margin-top: 30rpx; */
+  padding: 50rpx 10rpx;
+}
+
+.Sign>view {
+  text-align: center;
+}
+
+.day_inde {
+  font-size: 26rpx;
+  margin-top: 15rpx;
+  color: #938e8e;
+}
+
+.Treasure_box {
+  width: 90%;
+  border-radius: 50rpx;
+  padding: 20rpx 30rpx;
+  display: flex;
+  font-size: 30rpx;
+  background: #fec631;
+  align-items: center;
+  justify-content: space-between;
+  margin: auto;
+  margin-top: 20rpx;
+  color: #513232;
+}
+
+.Treasure_box image {
+  width: 200rpx;
+  height: 100rpx;
+  margin-right: 40rpx;
+}
+
+.time {
+  font-size: 34rpx;
+  font-weight: bolder;
+  margin-bottom: 10rpx;
+}
+
+.newUser_tit {
+  display: flex;
+  align-items: center;
+  color: #020202;
+  font-weight: bolder;
+  font-size: 28rpx;
+  margin: 20rpx 0;
+}
+
+.newUser {
+  width: 40rpx;
+  height: 40rpx;
+  margin-right: 20rpx;
+}
+
+.task_title {
+  color: #020202;
+  font-size: 30rpx;
+  padding-top: 20rpx;
+  font-weight: bold;
+}
+
+.task_ope_box {
+  padding: 30rpx;
+  /* margin-bottom: 50rpx; */
+}
+
+.task_opera {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  color: #413e3e;
+  font-size: 26rpx;
+  margin-top: 20rpx;
+  align-items: center;
+}
+
+.getTask {
+  width: 200rpx;
+  height: 50rpx;
+  border-radius: 30rpx;
+  border: 3px solid #ff6e02;
+  color: #ec9806;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.list {
+  background: white;
+  border-radius: 10rpx;
+  padding: 20 0;
+}
+
+.task_box {
+  padding:0  30rpx;
+}
+
+.bottom {
+  margin-bottom: 50rpx;
+}

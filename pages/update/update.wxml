@@ -1,0 +1,40 @@
+<view>
+  <view class='white'>
+    <view class='input_box'>
+      <input class='title' placeholder='请输入标题'></input>
+      <textarea class='info' placeholder='请输入内容'></textarea>
+    </view>
+    <view class='update_img'>
+      <image src='{{img}}'></image>
+      <image src='{{img}}'></image>
+      <image src='{{img}}'></image>
+    </view>
+  </view>
+  <view class='box-show'></view>
+  <view class='chanck white'>
+    <view class='monty_box'>
+      <image class='icon' src='{{img}}'></image>
+      <view class='type'>悬赏金融</view>
+    </view>
+    <view class='num'>
+      ￥
+      <input placeholder='请输入悬赏金额'></input>
+    </view>
+  </view>
+  <view class='box-show'></view>
+  <view class='chanck white'>
+    <view class='monty_box'>
+      <image class='icon' src='{{img}}'></image>
+      <view class='type'>悬赏期限</view>
+    </view>
+    <view class='num'>
+      <input placeholder='请输入悬赏期限'></input>天
+    </view>
+  </view>
+
+  <view class='Agreement'>
+    <icon type="success" size="15" color='#38ADFF' />
+    <text>《阅读平台权责声明》</text>
+  </view>
+  <button class='set'>发布</button>
+</view>

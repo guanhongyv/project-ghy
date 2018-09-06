@@ -1,0 +1,113 @@
+.userInfo_box {
+  display: flex;
+  align-items: center;
+  padding: 40rpx;
+}
+.userInfo_box image {
+  width: 80rpx;
+  height: 80rpx;
+  border-radius: 80rpx;
+  margin-right: 20rpx;
+}
+.user_name {
+  font-size: 32rpx;
+  color: #383838;
+  font-weight: bolder;
+}
+.code {
+    color: #848484;
+    font-size: 24rpx;
+}
+.user_num {
+  display: flex;
+  justify-content: space-between;
+}
+.user_num>view {
+  text-align: center;
+  width: 33.33%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+.bor {
+  border-right: 1px solid #cccccc;
+  border-left: 1px solid #cccccc;
+}
+.money {
+  font-weight: bolder;
+  font-size: 30rpx;
+  color: #383838;
+}
+.money_ic {
+  font-size: 24rpx;
+  color: #383838;
+  margin-top: 10rpx;
+}
+.user {
+  box-shadow: 30rpx 0 30rpx #F0F0F0;
+}
+.box-show {
+  margin-top: 10rpx;
+  width: 100%;
+  background: #F0F0F0;
+  height: 35rpx;
+}
+.addNum {
+  background: #F96B55;
+  padding: 10rpx;
+  border-radius: 20rpx;
+  position: absolute;
+  top: 10rpx;
+  right: 5rpx;
+  font-size: 14rpx;
+  color: #FFFFFF;
+}
+.user_opera {
+  display: flex;
+  justify-content: space-between;
+  padding: 20rpx 45rpx;
+  
+}
+.user_opera image {
+  width: 100rpx;
+  height: 100rpx;
+}
+.opera_name {
+  font-size: 28rpx;
+}
+.barn {
+  width: 90%;
+  height: 150rpx;
+  display: block;
+  margin:auto;
+}
+.list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1rpx solid #F0F0F0;
+}
+.list {
+  padding: 30rpx;
+  color: #565656;
+  font-size: 28rpx;
+}
+.list>view {
+  display: flex;
+  align-items: center;
+}
+.icon {
+  width: 60rpx;
+  height: 60rpx;
+  margin-right: 20rpx;
+}
+.back {
+  width: 40rpx;
+  height: 40rpx;
+  margin-left: 20rpx;
+}
+.getMoney {
+  color:#F96B55;
+  font-size:20rpx;
+}

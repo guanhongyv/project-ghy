@@ -1,0 +1,67 @@
+<view>
+  <view class='user'>
+    <view class='userInfo_box'>
+      <image src='{{img}}'></image>
+      <view>
+        <view class='user_name'>三募集</view>
+        <view class='code'>邀请码：123123</view>
+      </view>
+    </view>
+    <view class='user_num'>
+      <view>
+        <view class='money' >506464</view>
+        <view class='money_ic'>我的金币</view>
+        <view class='addNum'>+3000</view>
+      </view>
+      <view class='bor'>
+        <view  class='money'>506464</view>
+        <view class='money_ic'>我的零钱</view>
+        <view class='addNum'>+30</view>
+      </view>
+      <view>
+        <view  class='money'>506464</view>
+        <view class='money_ic'>今日分享</view>
+      </view>
+    </view>
+  </view>
+  <view class='box-show'></view>
+  <view>
+    <view>
+      <view class='user_opera'>
+        <view>
+          <image src='{{img}}' ></image>
+          <view class='opera_name'>提现兑换</view>
+        </view>
+        <view>
+          <image src='{{img}}' ></image>
+          <view class='opera_name'>提现兑换</view>
+        </view>
+        <view>
+          <image src='{{img}}' ></image>
+          <view class='opera_name'>提现兑换</view>
+        </view>
+        <view>
+          <image src='{{img}}' ></image>
+          <view class='opera_name'>提现兑换</view>
+        </view>
+      </view>
+    </view>
+    <image src='{{img}}' class='barn'></image>
+  </view>
+  <view class='box-show'></view>
+  <view>
+    <block wx:for='{{8}}' wx:key='{{index}}'>
+    <view class='list'>
+      <view>
+        <image class='icon' src='{{img}}'></image>
+        <view>请输入邀请码</view>
+      </view>
+      <view>
+        <view class='getMoney'>· 领取  1元</view>
+        <image class='back' src='{{img}}'></image>
+      </view>
+    </view>
+    </block>
+  </view>
+  <view class='box-show'></view>
+</view>

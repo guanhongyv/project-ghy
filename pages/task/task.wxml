@@ -1,0 +1,61 @@
+<view>
+  <view class='everyDay'>
+    <view class='head'>
+      <image class='tit' src='{{img}}'></image>
+      <view class='nextDay'>明天可领取555金币</view>
+    </view>
+    <view class='Sign'>
+      <block wx:for='{{7}}' wx:key='{{index}}'>
+        <view>
+          <view class='day_num'>
+            28
+          </view>
+          <view class='day_inde'>{{index+1}}天</view>
+        </view>
+      </block>
+    </view>
+  </view>
+  <view class='Treasure_box'>
+    <image src='{{img}}'></image>
+    <view>
+      <view class='time'>限时宝箱 {{CountDown}}</view>
+      <view>限时宝箱每4个小时启动一次，是每日的限时任务 分享即获得平台金币
+      </view>
+    </view>
+  </view>
+  
+  <view class='task_box' >
+    <view class='newUser_tit'>
+      <image src='{{img}}' class='newUser'></image>
+      <view>新手任务</view>
+    </view>
+    <view  class='list'>
+      <block wx:for='{{5}}' wx:key='{{index}}'>
+        <view class='task_ope_box'>
+          <view class='task_title'>关注微信公众号</view>
+          <view class='task_opera'>
+            <view>关注的红包</view>
+            <view class='getTask'>立即领取</view>
+          </view>
+        </view>
+      </block>
+    </view>
+  </view>
+  <view class='task_box bottom' >
+    <view class='newUser_tit'>
+      <image src='{{img}}' class='newUser'></image>
+      <view>新手任务</view>
+    </view>
+    <view  class='list'>
+      <block wx:for='{{5}}' wx:key='{{index}}'>
+        <view class='task_ope_box'>
+          <view class='task_title'>关注微信公众号</view>
+          <view class='task_opera'>
+            <view>关注的红包</view>
+            <view class='getTask'>立即领取</view>
+          </view>
+        </view>
+      </block>
+    </view>
+  </view>
+</view>

@@ -1,0 +1,40 @@
+.userInfo {
+  display: flex;
+  align-items: center;
+  padding:30rpx;
+  margin-top: 10rpx;
+}
+
+.avatorUrl {
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 50rpx;
+}
+.addres {
+  font-size: 20rpx;
+  margin-left: 40rpx;
+  width: 60%;
+}
+
+.addres image {
+  width: 10rpx;
+  height: 10rpx;
+}
+.name {
+  font-size: 24rpx;
+}
+.address {
+  display: flex;
+  margin-top: 10rpx;
+}
+.address>view {
+  display: flex;
+  align-items: center;
+}
+.left {
+  margin-left: 30rpx;
+}
+.date {
+  font-size: 20rpx;
+  color: #b2b2b2;
+}

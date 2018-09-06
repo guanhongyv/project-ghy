@@ -1,0 +1,84 @@
+<view>
+  <view class='first'>
+    <view class='search_box'>
+      <input confirm-type='search' ></input>
+      <icon type='clear' class='clear' size='15'></icon>
+      <view class='search_go'>
+        <image src='{{img}}' class='search_go_icon'></image>
+      </view>
+    </view>
+    <view class='swiper'>
+      <swiper autoplay	>
+        <block wx:for="{{3}}" wx:key='{{index}}'>
+          <swiper-item>
+            <image mode='aspectFill' src=" http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg" class="slide-image" />
+          </swiper-item>
+        </block>
+      </swiper>
+    </view>
+    <view class='topNav_box'>
+      <block wx:for='{{topNav}}' wx:key='{{index}}'>
+        <view>
+          <image src='{{item.icon}}'></image>
+          <view>{{item.name}}</view>
+        </view>
+      </block>
+    </view>
+    <view class='Advertisement'>
+      <image src='http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg'></image>
+    </view>
+  </view>
+  <view class='cneter'>
+    <view class=''>
+      <image src='http://img02.tooopen.com/images/20150928/tooopen_sy_143912755726.jpg'></image>
+      <text>附近有3201人分享了悬赏</text>
+    </view>
+  </view>
+  <view class='tasList'>
+    <view class='header_tit'>
+      <view class='blue'></view>
+      <view class='tit'>悬赏列表</view>
+    </view>
+    <block wx:for='{{3}}'   wx:key='{{index}}'>
+      <view class='cneter_box' catchtap='goRewardDetail'>
+        <view class='userInfo'>
+          <image src='{{img}}' class='avatorUrl'></image>
+          <view class='addres'>
+            <view class='name'>萨姆军</view>
+            <view class='address'>
+              <view>
+                <image src='{{img}}'></image>
+                <view>上海-静安</view>
+              </view>
+              <view class='left'>
+                <image src='{{img}}'></image>
+                <view>限期10天</view>
+              </view>
+            </view>
+          </view>
+          <view class='date'>2018/08/23</view>
+        </view>
+        <view class='Article'>
+          <view>他是KiYoMi，5岁了，是一只黑灰色贵宾犬，活泼、聪明，是个喜欢独坐在角落的忧郁王子。 6月下旬的一个早晨，在闵行区鑫峰苑内走丢了，由于新环境，狗狗不熟悉周边的关系，再加上平时遛狗未牵绳索，出门.......太快，下楼后就不见了踪影。 感觉狗狗可能还是在小区内或附近，可是寻找已有2个月但始终没能找到。
+          </view>
+          <image src='{{img}}'></image>
+        </view>
+        <view class='operation'>
+          <view>
+            <image src='{{img}}'></image>
+            <view>赏金：1000</view>
+          </view>
+          <view>
+            <image src='{{img}}'></image>
+            <view>赏金：1000</view>
+          </view>
+          <view>
+            <image src='{{img}}'></image>
+            <view>赏金：1000</view>
+          </view>
+        </view>
+      </view>
+      <view class='bottom_bor'></view>
+    </block>
+  </view>
+</view>

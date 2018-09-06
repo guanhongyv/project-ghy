@@ -1,0 +1,21 @@
+<view class='userInfo'>
+  <image src='{{img}}' class='avatorUrl'></image>
+  <view class='addres'>
+    <view>
+      <view class='name'>萨姆军</view>
+    </view>
+    <view>
+      <view class='address'>
+        <view>
+          <image src='{{img}}'></image>
+          <view>上海-静安</view>
+        </view>
+        <view class='left'>
+          <image src='{{img}}'></image>
+          <view>2018人</view>
+        </view>
+      </view>
+    </view>
+
+  </view>
+</view>

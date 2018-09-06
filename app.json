@@ -1,0 +1,50 @@
+{
+  "pages": [
+    "pages/goRewardDetail/goRewardDetail",
+    "pages/index/index",
+    "pages/update/update",
+    "pages/task/task",
+    "pages/my/my"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#009FEB",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "selectedColor": "#4BA2E6",
+        "color": "#B2B2B2",
+        "iconPath": "img/index.png",
+        "selectedIconPath": "img/indexS.png",
+        "text": "悬赏"
+      },
+      {
+        "pagePath": "pages/update/update",
+        "selectedColor": "#4BA2E6",
+        "color": "#B2B2B2",
+        "iconPath": "img/update.png",
+        "selectedIconPath": "img/updates.png",
+        "text": "发布"
+      },
+      {
+        "pagePath": "pages/task/task",
+        "selectedColor": "#4BA2E6",
+        "color": "#B2B2B2",
+        "iconPath": "img/task.png",
+        "selectedIconPath": "img/taskS.png",
+        "text": "任务"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "selectedColor": "#4BA2E6",
+        "color": "#B2B2B2",
+        "iconPath": "img/my.png",
+        "selectedIconPath": "img/myS.png",
+        "text": "我的"
+      }
+    ]
+  }
+}
