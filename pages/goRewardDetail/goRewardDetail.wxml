@@ -1,21 +1,47 @@
-<view class='userInfo'>
-  <image src='{{img}}' class='avatorUrl'></image>
-  <view class='addres'>
-    <view>
-      <view class='name'>萨姆军</view>
-    </view>
-    <view>
-      <view class='address'>
-        <view>
-          <image src='{{img}}'></image>
-          <view>上海-静安</view>
+<view>
+  <view class='userInfo'>
+    <image src='{{img}}' class='avatorUrl'></image>
+    <view class='addres'>
+      <view class='name_box'>
+        <view class='name'>萨姆军</view>
+        <view class='msg_box'>
+          已有5人点击了我要完成
+          <view class='befroe'></view>
+        </view>
+      </view>
+      <view class='name_box'>
+        <view class='address'>
+          <view>
+            <image src='{{img}}'></image>
+            <view>上海-静安</view>
+          </view>
+          <view class='left'>
+            <image src='{{img}}'></image>
+            <view>2018人</view>
+          </view>
         </view>
         <view class='left'>
           <image src='{{img}}'></image>
-          <view>2018人</view>
+          <view>剩余时间23:54:31:19</view>
         </view>
       </view>
     </view>
-
+  </view>
+  <view class='operation'>
+    <view>
+      <image src='{{img}}'></image>
+      <view>赏金：1000</view>
+    </view>
+    <view>
+      <image src='{{img}}'></image>
+      <view>赏金：1000</view>
+    </view>
+    <view>
+      <image src='{{img}}'></image>
+      <view>赏金：1000</view>
+    </view>
+  </view>
+  <view>
+    <view class='reward_tit'>帮忙找狗狗</view>
   </view>
 </view>

@@ -13,7 +13,8 @@
 .addres {
   font-size: 20rpx;
   margin-left: 40rpx;
-  width: 60%;
+  width: 79%;
+  
 }
 
 .addres image {
@@ -33,8 +34,74 @@
 }
 .left {
   margin-left: 30rpx;
+  display: flex;
+  align-items: center;
 }
 .date {
   font-size: 20rpx;
   color: #b2b2b2;
+}
+.name_box {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+.mar_top {
+  margin-top: 20rpx;
+} 
+.msg_box {
+  background: #FCEB2E;
+  padding: 7px 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  max-width: 465rpx;
+  position: relative;
+  font-size: 22rpx;
+  color: #565656;
+}
+.befroe {
+  border-top: 1px solid #ddd;
+  border-left: 1px solid #ddd;
+  width: 10px;
+  height: 10px;
+  background: #FCEB2E;
+  position: absolute;
+  top: 8px;
+  left: -6px;
+  transform: rotate(-45deg);
+  border-radius: 0 0 20px 0;
+}
+.operation {
+  display: flex;
+  width: 100%;
+  color: #565656;
+  font-size: 20rpx;
+  margin-top: 40rpx;
+  justify-content: space-between;
+  padding: 20rpx 0;
+  border-top: 1rpx solid #B2B2B2;
+  border-bottom: 3rpx solid #B2B2B2;
+}
+
+.operation>view {
+  width: 33.33%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-right: 1rpx solid #B2B2B2;
+}
+.operation :nth-last-child(1) {
+  border:none;
+}
+
+.operation>view  image {
+  width: 30rpx;
+  height: 30rpx;
+  margin-right: 10rpx;
+}
+.reward_tit {
+  color: #383838;
+  font-family: PingFangSC-Regular;
+  
 }

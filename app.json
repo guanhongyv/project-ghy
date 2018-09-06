@@ -1,7 +1,8 @@
 {
   "pages": [
-    "pages/goRewardDetail/goRewardDetail",
     "pages/index/index",
+    "pages/goRewardDetail/goRewardDetail",
+    
     "pages/update/update",
     "pages/task/task",
     "pages/my/my"
